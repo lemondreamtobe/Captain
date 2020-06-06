@@ -1,0 +1,35 @@
+{
+  "name": "pracel-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@types/react-router": "^5.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "autoprefixer": "^9.8.0",
+    "less": "^3.11.3",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^2.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  }
+}
