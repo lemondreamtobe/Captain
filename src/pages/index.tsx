@@ -1,8 +1,9 @@
 import * as React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Demo from './Demo';
-import Demo2 from './Demo2';
+import createLoadable from '../helpers/loadable';
 
+const Demo = createLoadable(() => import('./Demo'));
+const Demo2 = createLoadable(() => import('./Demo2'));
 
 const BasicRoute = () => (
     <BrowserRouter>
