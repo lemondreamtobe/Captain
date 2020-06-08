@@ -1,6 +1,7 @@
 # 🛳 Captain 👀
 
 一个麻雀虽小，但五脏俱全的脚手架 英文名Captain 中文名“船长”
+>据说业务需求能在Captain的承载下稳稳航行 （本脚手架将持续更新）
 
 ## 功能
 - **初次使用[parcel](https://github.com/parcel-bundler/parcel)进行集成和打包**，不再需要烦恼于各种配置 零配置文件 支持更快的热更新 和更优化的生产构建
@@ -78,4 +79,4 @@ $ yarn build
 - 定义框架 react/vue? 将决定整个工程的走向 以下3点都在此基础上进行延伸
 - 路由 SPA项目最为重要的一项东西 react-router/vue-router/dva-router?
 - 数据流 redux/dva/vuex? 
-- 集成打包工具 webpack/gulp/pracel？负责热更新 启动/构建 编译等等
+- 集成打包工具 webpack/gulp/pracel？负责热更新 启动/构建 编译等等 
