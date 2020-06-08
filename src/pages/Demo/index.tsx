@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './index.less';
-import $$ from '../../helpers/fetch';
 import {withRouter, RouteComponentProps} from 'react-router-dom';
+import {demoMode} from '../../modes';
 
 export interface DemoProps {
 
@@ -12,17 +12,13 @@ export interface DemoState {
 }
 
 class Demo extends React.Component<DemoProps & RouteComponentProps, DemoState> {
+  
   constructor(props) {
     super(props);
   }
 
   async componentDidMount() {
-    try {
-      const res = await $$.get('/api/getDemo');
-      console.log(res);
-    } catch (err) {
-      console.log('/api/getDemo', err);
-    }
+    demoMode.getDemo({id: 1});
   }
 
   goToDemo2 = () => {
