@@ -17,8 +17,8 @@
       "allowJs": true,
       "experimentalDecorators": true,
       "paths": {
-        "@helpers/*": ["./src/helpers/*"],
-        "@global/*": ["./src/global/*"],
+        "@/helpers/*": ["./src/helpers/*"],
+        "@/global/*": ["./src/global/*"],
       }
     },
     "include": [

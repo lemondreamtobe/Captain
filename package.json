@@ -12,11 +12,15 @@
     "build-prod": "parcel build src/index.html"
   },
   "dependencies": {
-    "@types/react-router": "^5.1.7",
-    "@types/react-router-dom": "^5.1.5",
+    "antd": "^4.3.3",
+    "axios": "^0.19.2",
+    "fetch-mock": "^9.10.1",
+    "hydrogen-js-sdk": "^2.2.4",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.15",
+    "mockjs": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router": "^5.2.0",
     "react-router-dom": "4.3.1"
   },
   "devDependencies": {
@@ -25,7 +29,9 @@
     "@babel/preset-react": "^7.10.1",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
     "autoprefixer": "^9.8.0",
+    "axios-mock-adapter": "^1.18.1",
     "less": "^3.11.3",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^2.0.0",
