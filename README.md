@@ -1,4 +1,7 @@
-# 🛳 Captain 👀
+<p align="center">
+    <img alt="captain" src="./src/global/images/logo.jpg" width="240">
+</p>
+<h1 align="center">🛳 Captain 👀</h1>
 
 一个麻雀虽小，但五脏俱全的脚手架 英文名Captain 中文名“船长”
 >据说业务需求能在Captain的承载下稳稳航行 （本脚手架将持续更新）
