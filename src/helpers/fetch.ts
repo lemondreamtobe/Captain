@@ -1,6 +1,7 @@
 import axios from 'axios';
 import {$$Types} from '../global/types/fetch';
 import Cookies from 'js-cookie';
+import getDataFromMock from './getDataFromMock';
 
 const $$: $$Types = {} as $$Types;
 
@@ -28,14 +29,14 @@ $$.get = async (url: string, params = null) => {
   writeHeader();
   const res = await axios.get(url, params);
   fetchLog(url, params, res);
-  return res;
+  return getDataFromMock(res);
 }
 
 $$.post = async (url: string, params: any) => {
   writeHeader();
   const res = await axios.post(url, params);
   fetchLog(url, params, res);
-  return res;
+  return getDataFromMock(res);
 }
 
 export default $$;
