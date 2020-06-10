@@ -21,9 +21,6 @@
         "@/global/*": ["./src/global/*"],
       }
     },
-    "include": [
-      "./src/types/**/*.d.ts",
-    ],
     "exclude": ["node_modules"]
   }
   

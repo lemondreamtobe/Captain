@@ -1,15 +1,15 @@
 {
-  presets: [
+  "presets": [
     [
-      '@babel/preset-env',
+      "@babel/preset-env",
       {
-        modules: false
+        "modules": false
       }
     ],
-    '@babel/preset-react',
-    '@babel/preset-typescript'
+    "@babel/preset-react",
+    "@babel/preset-typescript"
   ],
-  plugins: [
-    ['import', { libraryName: 'antd', libraryDirectory: 'es', style: 'less' }]
+  "plugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
   ]
 }
